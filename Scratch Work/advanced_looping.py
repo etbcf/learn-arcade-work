@@ -66,3 +66,65 @@
 
 
 # 14.2.10. Problem 10
+# for i in range(1, 10):
+#     for j in range(1, 10):
+#         # Extra space?
+#         if i * j < 10:
+#             print(" ", end="")
+#         print(i * j, end=" ")
+#     print()
+
+
+# 14.2.11. Problem 11
+# for i in range(1, 10):
+#     for j in range(10 - i):
+#         print(" ", end=" ")
+#     # Count up
+#     for k in range(1, i):
+#         print(k, end=" ")
+#     # Count down
+#     for l in range(i, 0, -1):
+#         print(l, end=" ")
+#     print()
+
+
+# 14.2.12. Problem 12
+# for i in range(1, 10):
+#     for j in range(10 - i):
+#         print(" ", end=" ")
+#     # Count up
+#     for k in range(1, i):
+#         print(k, end=" ")
+#     # Count down
+#     for l in range(i, 0, -1):
+#         print(l, end=" ")
+#     print()
+#
+# for m in range(10):
+#     for n in range(m + 2):
+#         print(" ", end=" ")
+#     for o in range(1, 9 - m):
+#         print(o, end=" ")
+#     print()
+
+
+# 14.2.13. Problem 13
+for i in range(1, 10):
+    for j in range(10 - i):
+        print(" ", end=" ")
+    # Count up
+    for k in range(1, i):
+        print(k, end=" ")
+    # Count down
+    for l in range(i, 0, -1):
+        print(l, end=" ")
+    print()
+
+for m in range(10):
+    for n in range(m + 2):
+        print(" ", end=" ")
+    for o in range(1, 9 - m):
+        print(o, end=" ")
+    for p in range(7 - m, 0, -1):
+        print(p, end=" ")
+    print()
