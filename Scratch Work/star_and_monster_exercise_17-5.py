@@ -14,5 +14,5 @@ class Monster:
         self.name = name
 
 
-monster = Monster(75, "Gooba"
+monster = Monster(75, "Gooba")
 print("Health:", monster.health, "Name:", monster.name)
