@@ -23,7 +23,8 @@ arcade.draw_lrbt_rectangle_filled(0, 800, 0, 200, arcade.csscolor.BISQUE)
 # left base point - left right, left base point - up down
 # right base point - left right, right base point - up down
 # top - left right, top - up down
-arcade.draw_triangle_filled(550, 180, 700, 180, 625, 300, arcade.csscolor.GOLD)
+arcade.draw_triangle_filled(625, 150, 700, 175, 625, 300, arcade.csscolor.GOLD)
+arcade.draw_triangle_filled(550, 175, 625, 150, 625, 300, arcade.csscolor.GOLDENROD)
 
 # --- Finish drawing ---
 arcade.finish_render()
