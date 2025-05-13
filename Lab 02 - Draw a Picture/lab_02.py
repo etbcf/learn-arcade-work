@@ -1,3 +1,10 @@
+# /// script
+# requires-python = ">=3.13"
+# dependencies = [
+#     "arcade",
+# ]
+# ///
+
 """
 This program tries to draw the pyramids of Egypt.
 It was taken from https://learn.arcade.academy
@@ -26,8 +33,12 @@ arcade.draw_lrbt_rectangle_filled(0, 800, 0, 200, arcade.csscolor.BISQUE)
 arcade.draw_triangle_filled(625, 150, 700, 175, 625, 300, arcade.csscolor.GOLD)
 arcade.draw_triangle_filled(550, 175, 625, 150, 625, 300, arcade.csscolor.GOLDENROD)
 
+arcade.draw_triangle_filled(550, 100, 675, 140, 550, 400, arcade.csscolor.GOLD)
+arcade.draw_triangle_filled(400, 150, 550, 100, 550, 400, arcade.csscolor.GOLDENROD)
+
 # --- Finish drawing ---
 arcade.finish_render()
 
 # Keep the window up until someone closes it.
 arcade.run()
+
