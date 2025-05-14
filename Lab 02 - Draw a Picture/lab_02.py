@@ -32,6 +32,8 @@ arcade.draw_triangle_filled(400, 150, 550, 100, 550, 400, arcade.csscolor.GOLDEN
 arcade.draw_triangle_filled(475, 50, 575, 80, 475, 300, arcade.csscolor.GOLD)
 arcade.draw_triangle_filled(350, 75, 475, 50, 475, 300, arcade.csscolor.GOLDENROD)
 
+# Draw a sun
+arcade.draw_circle_filled(700, 450, 40, arcade.color.YELLOW)
 
 # --- Finish drawing ---
 arcade.finish_render()
